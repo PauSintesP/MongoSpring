@@ -1,6 +1,5 @@
 package com.example.demo.Model;
 
-
 import java.io.Serializable;
 
 import org.springframework.data.annotation.Id;
@@ -22,7 +21,9 @@ public class Student implements Serializable {
     @Id
     private String id;
     private String name;
+    private String lastname1;
+    private String gender;
     private String email;
-    private int age;
-    private String course;
+    private int birth_year;
+    private String phone;
 }
