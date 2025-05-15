@@ -1,7 +1,5 @@
 package com.example.demo.DTO;
 
-
-
 public record StudentDTO(
      String name;
      String lastname1;
