@@ -1,17 +1,15 @@
 package com.example.demo.Mapper;
 
-import java.util.List;
-
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;
-import org.mapstruct.factory.Mappers;
+import org.springframework.stereotype.Component;
 
 import com.example.demo.DTO.StudentDTO;
 import com.example.demo.Model.Student;
 
 
 @Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
+@Component
 public interface StudentMapper {
 
 
